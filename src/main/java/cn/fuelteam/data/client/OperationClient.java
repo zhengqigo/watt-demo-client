@@ -7,6 +7,6 @@ import cn.fuelteam.data.dto.OperationDto;
 public interface OperationClient {
 
     Result<OperationDto> findById(Long id);
-
+    
     Result<Integer> insert(OperationDto operationDto);
 }
